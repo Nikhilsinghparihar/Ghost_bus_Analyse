@@ -25,5 +25,6 @@
             "username": "root",
             "password": ""
         }
-    ]
+    ],
+    "svn.ignoreMissingSvnWarning": true
 }
