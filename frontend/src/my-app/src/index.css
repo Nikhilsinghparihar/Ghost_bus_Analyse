@@ -1,0 +1,25 @@
+/* const exportCSV = () => {
+  let csv = "Aadhaar,Party,City,State\n";
+
+  Object.keys(aadhaarVotes).forEach((a) => {
+    const v = aadhaarVotes[a];
+    csv += `${a},${v.party},${v.city},${v.state}\n`;
+  });
+
+  const blob = new Blob([csv], { type: "text/csv" });
+  const url = window.URL.createObjectURL(blob);
+
+  const a = document.createElement("a");
+  a.href = url;
+  a.download = "votes.csv";
+  a.click();
+};
+
+
+
+
+<button style={styles.btn} onClick={exportCSV}>
+  📁 Export Data
+</button> */
+/* 
+using above command we should upload data of member who want to vote */

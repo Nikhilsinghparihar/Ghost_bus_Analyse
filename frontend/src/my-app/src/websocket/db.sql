@@ -2,7 +2,7 @@
 CREATE DATABASE busdb;
 
 -- Step 2: Connect to database
-\c busdb;
+
 
 -- Step 3: Create a table for bus data
 CREATE TABLE bus_data (

@@ -1,22 +1,29 @@
 {
   "name": "my-app",
   "private": true,
+  "proxy": "https://localhost:5000",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "start-api": "cd api && venv/bin/flask run --no-debugger",
+    "test-api": "cd api && flask test",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
   "dependencies": {
+    "axios": "^1.14.0",
+    "chart.js": "^4.5.1",
     "express": "^5.1.0",
     "leaflet": "^1.9.4",
     "leaflet-routing-machine": "^3.2.12",
     "react": "^19.1.1",
+    "react-chartjs-2": "^5.3.1",
     "react-dom": "^19.1.1",
     "react-leaflet": "^5.0.0",
-    "socket.io-client": "^4.8.1",
+    "recharts": "^3.8.1",
+    "socket.io-client": "^4.8.3",
     "websocket": "^1.0.35",
     "ws": "^8.18.3"
   },
