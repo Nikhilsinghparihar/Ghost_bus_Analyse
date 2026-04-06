@@ -137,7 +137,7 @@ npm start
 
 ## 👨‍💻 Author
 
-**Rishabh Prajapati**
+**NIKHIL SINGH PARIHAR**
 
 ---
 
